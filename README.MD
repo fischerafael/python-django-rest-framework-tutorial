@@ -6,3 +6,8 @@ pip install django
 
 3 - Install django-rest-framework
 pip install djangorestframework
+
+4 - Setup Project
+django-admin startproject tutorial .
+cd tutorial
+django-admin startapp quickstart
