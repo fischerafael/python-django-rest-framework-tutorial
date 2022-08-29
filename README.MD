@@ -11,3 +11,9 @@ pip install djangorestframework
 django-admin startproject tutorial .
 cd tutorial
 django-admin startapp quickstart
+]
+
+6 - Super User
+python manage.py createsuperuser --email admin@example.com --username admin
+admin@example.com
+123456
